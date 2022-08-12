@@ -1,0 +1,59 @@
+.services{
+    font-size: 20px;
+}
+
+@media (max-width: 400px) {
+    .services{
+        font-size: 14px;
+    }
+}
+
+.title{
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 5em;
+    color: white;
+}
+
+.servicesLargeText{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 3em;
+    color: white;
+}
+
+
+.servicesSmallText{
+    font-family: Nunito;
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+}
+
+.list{
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 1.6em;
+    color: white; 
+}
+
+.serviceAddOns{
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 1.6em;
+    color: white; 
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.line{
+    background-color: white;
+    height: .1em;
+    margin: 3em;
+}
+
+.br{
+    height: 10em;
+}
+

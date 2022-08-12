@@ -1,0 +1,59 @@
+.dateBlock{
+    margin-top: 25px;
+}
+
+.trueColor {
+  background-color: #06f;
+}
+
+
+.falseColor {
+    background-color: rgba(42, 197, 253, 0.516)
+  }
+  .falseColor:hover {
+    background-color: rgba(42, 197, 253, 0.87)
+  }
+
+button{
+    padding-top: 15px;
+    margin: 10px 10px 0px 0px;
+
+}
+
+.dayPartButton{
+    align-items: center;
+    border: 3.5px solid rgb(255, 255, 255);
+    border-radius: 60px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 130px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: AntipastoBold;
+}
+
+.selectAll{
+    background-color: #06f;
+}
+
+.datePicker{
+    height: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-indent: 15px;
+}

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2ae5fd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@font-face {
+  font-family: "AntipastoBold";
+  src: local("AntipastoBold"),
+    url("./fonts/AntipastoBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Antipasto";
+  src: local("Antipasto"),
+    url("./fonts/Antipasto.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AntipastoLight";
+  src: local("AntipastoLight"),
+    url("./fonts/AntipastoLight.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+    url("./fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
