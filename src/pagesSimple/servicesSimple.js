@@ -24,10 +24,10 @@ export default function ServicesSimple() {
       <h2 className="servicesSmallText">Starting at $22 for 30 minutes</h2>
       <h2 className="servicesSmallText">Starting at $33 for 60 minutes</h2>
       <ul className="serviceAddOns">
-        <li>Puppy rate: $26/$37 per visit</li>
         <li>Additional dog rate: +$8 per visit</li>
-        <li>Additional cat rate: +$5 per visit</li>
+        <li>Puppy rate: $26/$37 per visit</li>
         <li>Additional puppy rate: +$12 per visit</li>
+        <li>Additional cat rate: +$5 per visit</li>
         <li>Holiday rates may vary</li>
       </ul>
 
@@ -45,8 +45,8 @@ export default function ServicesSimple() {
       <h2 className="servicesSmallText">Starting at $26 for 30 minutes</h2>
       <h2 className="servicesSmallText">Starting at $42 for 60 minutes</h2>
       <ul className="serviceAddOns">
-        <li>Puppy rate: $30/$46 per visit</li>
         <li>Additional dog rate: +$10 per walk</li>
+        <li>Puppy rate: $30/$46 per walk</li>
         <li>Additional puppy rate: +$14 per walk</li>
         <li>Holiday rates may vary</li>
       </ul>
