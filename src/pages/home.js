@@ -10,6 +10,7 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="logo" alt="logo" />
+        <div className="arlington">Arlington Texas</div>
         <h1>DROP-IN VISITS</h1>
         <h2>Starting at $25</h2>
         <h1>DOG WALKING</h1>
@@ -22,7 +23,6 @@ function Home() {
         <div className="space" />
         <About />
       </header>
-     
     </div>
   );
 }

@@ -9,8 +9,8 @@ import FormSimple from "./pagesSimple/formSimple";
 
 
 // import Home from "./pages/home";
-// import Services from "./pages/services"
-// import Form from "./pages/form"
+import Services from "./pages/services"
+import Form from "./pages/form"
 
 
 import Reviews from "./pages/reviews"
@@ -27,7 +27,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomeSimple />} />
         <Route exact path="/services" element={<ServicesSimple />} />
-        <Route exact path="/form" element={<FormSimple />} />
+        <Route exact path="/services2" element={<Services />} />
+        <Route exact path="/form" element={<FormSimple/>} />
         <Route exact path="/reviews" element={<Reviews />} />
 
       </Routes>

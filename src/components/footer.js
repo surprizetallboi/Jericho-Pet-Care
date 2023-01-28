@@ -5,18 +5,15 @@ import InsuranceLogo from "../pci-logo.svg";
 const footer = (props) => (
   <div className="footer">
     <div className="footerItems">
-      <p className="footerTitle">get in touch</p>
-      <a href="tel:+1-682-583-4058" className="socialMedia">
-        <PhoneIphone sx={{ fontSize: 50 }} />
-      </a>
+      
       <a href="https://instagram.com/jerichopetcare/" className="socialMedia">
-        <Instagram sx={{ fontSize: 50 }} />
+        <Instagram sx={{ fontSize: 40 }} />
       </a>
       <a href="https://Facebook.com/jerichopetcare" className="socialMedia">
-        <Facebook sx={{ fontSize: 50 }} />
+        <Facebook sx={{ fontSize: 40 }} />
       </a>
       <a href="https://Twitter.com" className="socialMedia">
-        <Twitter sx={{ fontSize: 50 }} />
+        <Twitter sx={{ fontSize: 40 }} />
       </a>
     </div>
     <div className="space" />

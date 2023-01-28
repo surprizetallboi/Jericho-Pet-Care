@@ -2,11 +2,13 @@ import React from "react";
 import Header from "../components/header";
 import "./servicesSimple.css";
 import MeetAndGreet from "../components/meetAndGreet";
+import { Helmet } from 'react-helmet';
 
 export default function ServicesSimple() {
   return (
     <div className="services">
       <Header />
+      <Helmet><title>Jericho Pet Care | Services</title></Helmet>
       <div className="title">Services</div>
 
       <h1 className="servicesLargeText">DROP-IN VISITS</h1>

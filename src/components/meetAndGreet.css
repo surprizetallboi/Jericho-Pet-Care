@@ -5,7 +5,7 @@
 .MAGLargeText{
     font-family: Nunito;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2.8em;
     color: white;
 }
 
@@ -81,3 +81,14 @@
     cursor: auto;
   }
   
+.mamaTried{
+  text-align: center;
+}
+
+  .largeText{
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 3em;
+    color: white;
+    margin-bottom: .2em;
+  }

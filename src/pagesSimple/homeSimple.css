@@ -7,11 +7,10 @@
 @media (max-width: 400px) {
     .homeSimple{
         font-size: 14px;
-    }
-}
+    }}
 .logo {
-    padding: 3em 0em 1em 0em;
-    width: 700;
+    padding: 3em 0em .3em 0em;
+    width: 300;
 }
 
 .largeText{
@@ -35,7 +34,7 @@
 .aboutText{
     font-family: Nunito;
     font-weight: 300;
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: white;
     margin-bottom: 3em;
 }
@@ -52,7 +51,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: Nunito;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 900;
   letter-spacing: .8px;
   line-height: 20px;
@@ -113,4 +112,12 @@
 
 .br{
   height: 10em;
+}
+
+.arlington{
+  font-family: Nunito;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 40px;
 }

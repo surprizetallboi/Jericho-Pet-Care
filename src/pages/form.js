@@ -12,6 +12,15 @@ function Form() {
     email: "itsmyrealname@example.com",
   });
 
+  function handleChange(event) {
+    setContact((prevContact) => {
+      return {
+        ...prevContact,
+        [event.target.name]: event.target.value,
+      };
+    });
+  }
+
   //Use this to add additional dateBlock components
   const [thingsArray, setThingsArray] = React.useState([]);
 
@@ -20,7 +29,7 @@ function Form() {
       return [...prevThingsArray, <DateBlock />];
     });
   }
-
+  // if shit breaks later put (prevThingsArray) back on, but otherwise I think I dont need them
   function deleteItem() {
     setThingsArray((prevThingsArray) => {
       return prevThingsArray.splice(1, 1);
@@ -33,8 +42,30 @@ function Form() {
     <div className="form">
       <Header />
       <div>
-        <input type="text" placeholder="Name" className="form--input" />
-        <input type="text" placeholder="Phone #" className="form--input" />
+        <input
+          type="text"
+          placeholder="firstName"
+          className="form--input"
+          onChange={handleChange}
+          name="firstName"
+          value={contact.firstName}
+        />
+        <input
+          type="text"
+          placeholder="lastName"
+          className="form--input"
+          onChange={handleChange}
+          name="lastName"
+          value={contact.lastName}
+        />
+        <input
+          type="text"
+          placeholder="phone"
+          className="form--input"
+          onChange={handleChange}
+          name="phone"
+          value={contact.phone}
+        />
       </div>
       <DateBlock />
       {thingsElements}
