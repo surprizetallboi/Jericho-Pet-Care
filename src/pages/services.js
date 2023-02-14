@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 import Counter from "../components/counter";
 import Header from "../components/header";
 
-function Services() {
+export default function Services() {
   const [dog, setDog] = useState(0);
   const [pup, setPup] = useState(0);
   const [cat, setCat] = useState(0);
@@ -117,5 +117,3 @@ function Services() {
     </div>
   );
 }
-
-export default Services;
