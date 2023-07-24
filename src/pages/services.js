@@ -70,26 +70,26 @@ export default function Services() {
   }
 
   function thirtySixty() {
-    if (thirty){
-      return "30"
-    } else{
-      return "60"
+    if (thirty) {
+      return "30";
+    } else {
+      return "60";
     }
   }
 
-  function totalWalkDrop(){
-    if(drop){
-      return dropTotal
-    } else{
-      return walkTotal
+  function totalWalkDrop() {
+    if (drop) {
+      return dropTotal;
+    } else {
+      return walkTotal;
     }
   }
 
-  function dropWalk(){
-    if(drop){
-      return "Drop In"
-    }else{
-      return "Walk"
+  function dropWalk() {
+    if (drop) {
+      return "Drop In";
+    } else {
+      return "Walk";
     }
   }
 
@@ -99,10 +99,16 @@ export default function Services() {
       <Helmet>
         <title>Jericho Pet Care | Services</title>
       </Helmet>
-      <h1 className="priceTotal">${totalWalkDrop()} per {thirtySixty()} minute {dropWalk()}</h1>
+      <h1 className="priceTotal">
+        ${totalWalkDrop()} per {thirtySixty()} minute {dropWalk()}
+      </h1>
       <div className="changeButtonS">
-      <button className="changeButton" onClick={changeThirty}>30 / 60</button>
-      <button className="changeButton i" onClick={changeDrop}>DROP IN / WALK</button>
+        <button className="changeButton" onClick={changeThirty}>
+          30 / 60
+        </button>
+        <button className="changeButton i" onClick={changeDrop}>
+          DROP IN / WALK
+        </button>
       </div>
       {/* <h1 className={thirty ? "total" : "notTotal"}>30</h1>
       <h1 className={!thirty ? "total" : "notTotal"}>60</h1> */}
